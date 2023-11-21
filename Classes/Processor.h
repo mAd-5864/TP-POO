@@ -2,23 +2,19 @@
 #define TP_POO_PROCESSOR_H
 #include "Regra.h"
 
-
 class Processor {
 private:
-    vector<Rule> rules;
-    string command;
+    vector<Rule> rules;   // Vetor para armazenar as regras a serem processadas
+    string command;       // Comando a ser processado
 
 public:
-    Processor(string  cmd);
+    Processor(string cmd); // Construtor que inicializa o objeto com um comando
 
-    void addRule(const Rule& rule);
-
-    void removeRule(int index);
-
-    void updateCommand(const string& newCommand);
-
-    bool evaluateRules(const vector<double>& sensorValues);
+    void addRule(const Rule& rule);  // Adiciona uma regra ao vetor de regras
+    void removeRule(int index);      // Remove uma regra com base no índice no vetor de regras
+    void updateCommand(const string& newCommand);  // Atualiza o comando a ser processado
+    bool evaluateRules(const vector<double>& sensorValues);  // Avalia as regras com base nos valores dos sensores
 };
 
-
 #endif //TP_POO_PROCESSOR_H
+
