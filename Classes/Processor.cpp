@@ -27,7 +27,7 @@ bool Processor::evaluateRules(const vector<double>& sensorValues) {
 //Leitura do ficheiro de comandos
 
 // Função para processar um comando
-void processcomands(const std::string& comando) {
+void processCommands(const std::string& comando) {
     // Implemente a lógica para processar cada tipo de comando
     // Por exemplo, você pode dividir a string do comando e agir com base nos valores
     // Aqui, estamos apenas imprimindo para ilustração
@@ -46,7 +46,7 @@ void readcomandsfile(const std::string& nomeArquivo) {
     }
 
     // Processar cada linha do arquivo como um comando
-    std::string linha;
+    string linha;
     while (std::getline(arquivo, linha)) {
         // Chame a função para processar o comando
         processarComando(linha);
@@ -60,7 +60,6 @@ int main() { // main temporaria moço só para ver se dava
     // Nome do arquivo de comandos
     std::string nomeArquivo = "comandos.txt";
 
-    // Chame a função para ler e processar os comandos do arquivo
     readcomandsfile(nomeArquivo);
 
     return 0;
