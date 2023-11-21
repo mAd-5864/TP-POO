@@ -5,7 +5,10 @@
 #include <string>
 #include <vector>
 #include <sstream>
+#include <utility>
 
-std::vector<std::string> splitString(const std::string& s, char delimiter);
+using namespace std;
+
+vector<string> splitString(const string& s, char delimiter);
 
 #endif // UTILS_H

@@ -1,11 +1,11 @@
 #include "utils.h"
 
-std::vector<std::string> splitString(const std::string& s, char delimiter) {
-    std::vector<std::string> tokens;
-    std::stringstream ss(s);
-    std::string token;
+vector<string> splitString(const string& s, char delimiter) {
+    vector<string> tokens;
+    stringstream ss(s);
+    string token;
 
-    while (std::getline(ss, token, delimiter)) {
+    while (getline(ss, token, delimiter)) {
         tokens.push_back(token);
     }
 
