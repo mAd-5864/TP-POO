@@ -1,4 +1,5 @@
 #include "utils.h"
+//#include "./Classes/Commands.h"
 
 // Function to read and validate user commands
 void getUserCommand() {
@@ -43,7 +44,7 @@ void getUserCommand() {
                 int Y;
                 istringstream (arguments[1])>>X;
                 istringstream (arguments[2])>>Y;
-                //criarHab(nLines, nCols);
+                //criarZona(x, y);
             }else{
                 cout << "[ERRO] Sintaxe invalida: znova <linha> <coluna>" << endl;
             }
