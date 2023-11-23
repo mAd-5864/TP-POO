@@ -1,3 +1,4 @@
+#include <fstream>
 #include "Processor.h"
 
 Processor::Processor(string cmd) : command(std::move(cmd)) {}  // Inicializa o comando no construtor
@@ -49,13 +50,13 @@ void readcomandsfile(const std::string& nomeArquivo) {
     string linha;
     while (std::getline(arquivo, linha)) {
         // Chame a função para processar o comando
-        processarComando(linha);
+        processCommands(linha);
     }
 
     // Feche o arquivo após a leitura
     arquivo.close();
 }
-
+/*es
 int main() { // main temporaria moço só para ver se dava
     // Nome do arquivo de comandos
     std::string nomeArquivo = "comandos.txt";
@@ -64,4 +65,4 @@ int main() { // main temporaria moço só para ver se dava
 
     return 0;
 }
-
+*/
