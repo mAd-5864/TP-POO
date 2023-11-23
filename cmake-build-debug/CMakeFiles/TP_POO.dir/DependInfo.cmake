@@ -9,7 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Pedro/Desktop/ISEC/TP-POO/Classes/Commands.cpp" "CMakeFiles/TP_POO.dir/Classes/Commands.cpp.obj" "gcc" "CMakeFiles/TP_POO.dir/Classes/Commands.cpp.obj.d"
-  "C:/Users/Pedro/Desktop/ISEC/TP-POO/Classes/Processor.cpp" "CMakeFiles/TP_POO.dir/Classes/Processor.cpp.obj" "gcc" "CMakeFiles/TP_POO.dir/Classes/Processor.cpp.obj.d"
+  "C:/Users/Pedro/Desktop/ISEC/TP-POO/Classes/Processador.cpp" "CMakeFiles/TP_POO.dir/Classes/Processador.cpp.obj" "gcc" "CMakeFiles/TP_POO.dir/Classes/Processador.cpp.obj.d"
   "C:/Users/Pedro/Desktop/ISEC/TP-POO/Classes/Regra.cpp" "CMakeFiles/TP_POO.dir/Classes/Regra.cpp.obj" "gcc" "CMakeFiles/TP_POO.dir/Classes/Regra.cpp.obj.d"
   "C:/Users/Pedro/Desktop/ISEC/TP-POO/Main.cpp" "CMakeFiles/TP_POO.dir/Main.cpp.obj" "gcc" "CMakeFiles/TP_POO.dir/Main.cpp.obj.d"
   )

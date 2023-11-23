@@ -90,10 +90,10 @@
 		<Unit filename="C:/Users/Pedro/Desktop/ISEC/TP-POO/Classes/Commands.h">
 			<Option target="TP_POO"/>
 		</Unit>
-		<Unit filename="C:/Users/Pedro/Desktop/ISEC/TP-POO/Classes/Processor.cpp">
+		<Unit filename="C:/Users/Pedro/Desktop/ISEC/TP-POO/Classes/Processador.cpp">
 			<Option target="TP_POO"/>
 		</Unit>
-		<Unit filename="C:/Users/Pedro/Desktop/ISEC/TP-POO/Classes/Processor.h">
+		<Unit filename="C:/Users/Pedro/Desktop/ISEC/TP-POO/Classes/Processador.h">
 			<Option target="TP_POO"/>
 		</Unit>
 		<Unit filename="C:/Users/Pedro/Desktop/ISEC/TP-POO/Classes/Regra.cpp">
