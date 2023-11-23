@@ -95,8 +95,20 @@ void getUserCommand() {
                 istringstream (arguments[2])>>novoComponente;
                 istringstream (arguments[3])>>tipoComand;
                 //criarComponente(idZona, novoComponete, tipoComand);
-            }else{
+            }else {
                 cout << "[ERRO] Sintaxe invalida: cnovo <ID zona> <s | p | a> <tipo | comando>" << endl;
+            }
+        } else if (command == "crem") {
+            if (arguments.size()==4){
+                int idZona;
+                string compToRemove;
+                int idComp;
+                istringstream (arguments[1])>>idZona;
+                istringstream (arguments[2])>>compToRemove;
+                istringstream (arguments[3])>>idComp;
+                //removerComponente(idZona, compToRemove, idComp);
+            }else{
+                cout << "[ERRO] Sintaxe invalida: crem <ID zona> <s | p | a> <ID>" << endl;
             }
         } else {
             cout << "[ERRO] Comando Invalido: " << command << endl;

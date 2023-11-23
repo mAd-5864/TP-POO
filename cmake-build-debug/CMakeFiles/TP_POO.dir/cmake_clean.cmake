@@ -1,10 +1,15 @@
 file(REMOVE_RECURSE
   "CMakeFiles/TP_POO.dir/Classes/Commands.cpp.obj"
   "CMakeFiles/TP_POO.dir/Classes/Commands.cpp.obj.d"
+<<<<<<< HEAD
   "CMakeFiles/TP_POO.dir/Classes/Interface.cpp.obj"
   "CMakeFiles/TP_POO.dir/Classes/Interface.cpp.obj.d"
   "CMakeFiles/TP_POO.dir/Classes/Processor.cpp.obj"
   "CMakeFiles/TP_POO.dir/Classes/Processor.cpp.obj.d"
+=======
+  "CMakeFiles/TP_POO.dir/Classes/Processador.cpp.obj"
+  "CMakeFiles/TP_POO.dir/Classes/Processador.cpp.obj.d"
+>>>>>>> 2aec9e694ef249fa2de792e629e68e6529289248
   "CMakeFiles/TP_POO.dir/Classes/Regra.cpp.obj"
   "CMakeFiles/TP_POO.dir/Classes/Regra.cpp.obj.d"
   "CMakeFiles/TP_POO.dir/Main.cpp.obj"

@@ -8,10 +8,10 @@ add_executable(TP_POO
         utils.h
         Classes/Regra.cpp
         Classes/Regra.h
-        Classes/Processor.cpp
-        Classes/Processor.h
         Classes/Commands.cpp
         Classes/Commands.h
         Classes/Interface.cpp
         Classes/Interface.h)
-
+        Classes/Processador.cpp
+        Classes/Processador.h
+)

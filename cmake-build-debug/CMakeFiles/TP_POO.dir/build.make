@@ -96,6 +96,7 @@ CMakeFiles/TP_POO.dir/Classes/Regra.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP_POO.dir/Classes/Regra.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\TP-POO\Classes\Regra.cpp -o CMakeFiles\TP_POO.dir\Classes\Regra.cpp.s
 
+<<<<<<< HEAD
 CMakeFiles/TP_POO.dir/Classes/Processor.cpp.obj: CMakeFiles/TP_POO.dir/flags.make
 CMakeFiles/TP_POO.dir/Classes/Processor.cpp.obj: C:/TP-POO/Classes/Processor.cpp
 CMakeFiles/TP_POO.dir/Classes/Processor.cpp.obj: CMakeFiles/TP_POO.dir/compiler_depend.ts
@@ -110,11 +111,18 @@ CMakeFiles/TP_POO.dir/Classes/Processor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP_POO.dir/Classes/Processor.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\TP-POO\Classes\Processor.cpp -o CMakeFiles\TP_POO.dir\Classes\Processor.cpp.s
 
+=======
+>>>>>>> 2aec9e694ef249fa2de792e629e68e6529289248
 CMakeFiles/TP_POO.dir/Classes/Commands.cpp.obj: CMakeFiles/TP_POO.dir/flags.make
 CMakeFiles/TP_POO.dir/Classes/Commands.cpp.obj: C:/TP-POO/Classes/Commands.cpp
 CMakeFiles/TP_POO.dir/Classes/Commands.cpp.obj: CMakeFiles/TP_POO.dir/compiler_depend.ts
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\TP-POO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TP_POO.dir/Classes/Commands.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TP_POO.dir/Classes/Commands.cpp.obj -MF CMakeFiles\TP_POO.dir\Classes\Commands.cpp.obj.d -o CMakeFiles\TP_POO.dir\Classes\Commands.cpp.obj -c C:\TP-POO\Classes\Commands.cpp
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Pedro\Desktop\ISEC\TP-POO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TP_POO.dir/Classes/Commands.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TP_POO.dir/Classes/Commands.cpp.obj -MF CMakeFiles\TP_POO.dir\Classes\Commands.cpp.obj.d -o CMakeFiles\TP_POO.dir\Classes\Commands.cpp.obj -c C:\Users\Pedro\Desktop\ISEC\TP-POO\Classes\Commands.cpp
+>>>>>>> 2aec9e694ef249fa2de792e629e68e6529289248
 
 CMakeFiles/TP_POO.dir/Classes/Commands.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP_POO.dir/Classes/Commands.cpp.i"
@@ -138,22 +146,44 @@ CMakeFiles/TP_POO.dir/Classes/Interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP_POO.dir/Classes/Interface.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\TP-POO\Classes\Interface.cpp -o CMakeFiles\TP_POO.dir\Classes\Interface.cpp.s
 
+CMakeFiles/TP_POO.dir/Classes/Processador.cpp.obj: CMakeFiles/TP_POO.dir/flags.make
+CMakeFiles/TP_POO.dir/Classes/Processador.cpp.obj: C:/Users/Pedro/Desktop/ISEC/TP-POO/Classes/Processador.cpp
+CMakeFiles/TP_POO.dir/Classes/Processador.cpp.obj: CMakeFiles/TP_POO.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Pedro\Desktop\ISEC\TP-POO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TP_POO.dir/Classes/Processador.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TP_POO.dir/Classes/Processador.cpp.obj -MF CMakeFiles\TP_POO.dir\Classes\Processador.cpp.obj.d -o CMakeFiles\TP_POO.dir\Classes\Processador.cpp.obj -c C:\Users\Pedro\Desktop\ISEC\TP-POO\Classes\Processador.cpp
+
+CMakeFiles/TP_POO.dir/Classes/Processador.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP_POO.dir/Classes/Processador.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Pedro\Desktop\ISEC\TP-POO\Classes\Processador.cpp > CMakeFiles\TP_POO.dir\Classes\Processador.cpp.i
+
+CMakeFiles/TP_POO.dir/Classes/Processador.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP_POO.dir/Classes/Processador.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Pedro\Desktop\ISEC\TP-POO\Classes\Processador.cpp -o CMakeFiles\TP_POO.dir\Classes\Processador.cpp.s
+
 # Object files for target TP_POO
 TP_POO_OBJECTS = \
 "CMakeFiles/TP_POO.dir/Main.cpp.obj" \
 "CMakeFiles/TP_POO.dir/Classes/Regra.cpp.obj" \
+<<<<<<< HEAD
 "CMakeFiles/TP_POO.dir/Classes/Processor.cpp.obj" \
 "CMakeFiles/TP_POO.dir/Classes/Commands.cpp.obj" \
 "CMakeFiles/TP_POO.dir/Classes/Interface.cpp.obj"
+=======
+"CMakeFiles/TP_POO.dir/Classes/Commands.cpp.obj" \
+"CMakeFiles/TP_POO.dir/Classes/Processador.cpp.obj"
+>>>>>>> 2aec9e694ef249fa2de792e629e68e6529289248
 
 # External object files for target TP_POO
 TP_POO_EXTERNAL_OBJECTS =
 
 TP_POO.exe: CMakeFiles/TP_POO.dir/Main.cpp.obj
 TP_POO.exe: CMakeFiles/TP_POO.dir/Classes/Regra.cpp.obj
-TP_POO.exe: CMakeFiles/TP_POO.dir/Classes/Processor.cpp.obj
 TP_POO.exe: CMakeFiles/TP_POO.dir/Classes/Commands.cpp.obj
+<<<<<<< HEAD
 TP_POO.exe: CMakeFiles/TP_POO.dir/Classes/Interface.cpp.obj
+=======
+TP_POO.exe: CMakeFiles/TP_POO.dir/Classes/Processador.cpp.obj
+>>>>>>> 2aec9e694ef249fa2de792e629e68e6529289248
 TP_POO.exe: CMakeFiles/TP_POO.dir/build.make
 TP_POO.exe: CMakeFiles/TP_POO.dir/linkLibs.rsp
 TP_POO.exe: CMakeFiles/TP_POO.dir/objects1

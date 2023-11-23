@@ -152,6 +152,7 @@ Classes/Commands.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP_POO.dir\build.make CMakeFiles/TP_POO.dir/Classes/Commands.cpp.s
 .PHONY : Classes/Commands.cpp.s
 
+<<<<<<< HEAD
 Classes/Interface.obj: Classes/Interface.cpp.obj
 .PHONY : Classes/Interface.obj
 
@@ -178,27 +179,31 @@ Classes/Interface.cpp.s:
 
 Classes/Processor.obj: Classes/Processor.cpp.obj
 .PHONY : Classes/Processor.obj
+=======
+Classes/Processador.obj: Classes/Processador.cpp.obj
+.PHONY : Classes/Processador.obj
+>>>>>>> 2aec9e694ef249fa2de792e629e68e6529289248
 
 # target to build an object file
-Classes/Processor.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP_POO.dir\build.make CMakeFiles/TP_POO.dir/Classes/Processor.cpp.obj
-.PHONY : Classes/Processor.cpp.obj
+Classes/Processador.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP_POO.dir\build.make CMakeFiles/TP_POO.dir/Classes/Processador.cpp.obj
+.PHONY : Classes/Processador.cpp.obj
 
-Classes/Processor.i: Classes/Processor.cpp.i
-.PHONY : Classes/Processor.i
+Classes/Processador.i: Classes/Processador.cpp.i
+.PHONY : Classes/Processador.i
 
 # target to preprocess a source file
-Classes/Processor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP_POO.dir\build.make CMakeFiles/TP_POO.dir/Classes/Processor.cpp.i
-.PHONY : Classes/Processor.cpp.i
+Classes/Processador.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP_POO.dir\build.make CMakeFiles/TP_POO.dir/Classes/Processador.cpp.i
+.PHONY : Classes/Processador.cpp.i
 
-Classes/Processor.s: Classes/Processor.cpp.s
-.PHONY : Classes/Processor.s
+Classes/Processador.s: Classes/Processador.cpp.s
+.PHONY : Classes/Processador.s
 
 # target to generate assembly for a file
-Classes/Processor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP_POO.dir\build.make CMakeFiles/TP_POO.dir/Classes/Processor.cpp.s
-.PHONY : Classes/Processor.cpp.s
+Classes/Processador.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP_POO.dir\build.make CMakeFiles/TP_POO.dir/Classes/Processador.cpp.s
+.PHONY : Classes/Processador.cpp.s
 
 Classes/Regra.obj: Classes/Regra.cpp.obj
 .PHONY : Classes/Regra.obj
@@ -260,12 +265,18 @@ help:
 	@echo ... Classes/Commands.obj
 	@echo ... Classes/Commands.i
 	@echo ... Classes/Commands.s
+<<<<<<< HEAD
 	@echo ... Classes/Interface.obj
 	@echo ... Classes/Interface.i
 	@echo ... Classes/Interface.s
 	@echo ... Classes/Processor.obj
 	@echo ... Classes/Processor.i
 	@echo ... Classes/Processor.s
+=======
+	@echo ... Classes/Processador.obj
+	@echo ... Classes/Processador.i
+	@echo ... Classes/Processador.s
+>>>>>>> 2aec9e694ef249fa2de792e629e68e6529289248
 	@echo ... Classes/Regra.obj
 	@echo ... Classes/Regra.i
 	@echo ... Classes/Regra.s
