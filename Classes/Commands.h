@@ -5,10 +5,13 @@
 
 class Commands {
 private:
+    string commandString;
+    vector<string> arguments;
     int nlines, ncols, n, X, Y, idZona;
 
 public:
     Commands();
+    bool parseCommand();
     void ProxCommand();
     void AvancaCommand(int n);
     void criarHab(int nLines, int nCols);

@@ -2,6 +2,18 @@
 
 Commands::Commands() : nlines(), ncols(), n(), X(), Y(), idZona() {}
 
+// Parse the command and extract components
+bool Commands::parseCommand() {
+    // Implement parsing logic here
+    std::istringstream ss(commandString);
+    std::string token;
+    while (ss >> token) {
+        arguments.push_back(token);
+    }
+    return true;
+    //return validateCommand();
+}
+
 void Commands::ProxCommand() {
     cout << "[Prox] Comando ainda não implementado" << endl;
 }
