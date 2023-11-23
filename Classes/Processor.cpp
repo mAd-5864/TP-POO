@@ -1,4 +1,3 @@
-#include <fstream>
 #include "Processor.h"
 
 Processor::Processor(string cmd) : command(std::move(cmd)) {}  // Inicializa o comando no construtor

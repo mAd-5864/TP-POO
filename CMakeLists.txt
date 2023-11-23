@@ -10,4 +10,6 @@ add_executable(TP_POO
         Classes/Regra.h
         Classes/Processor.cpp
         Classes/Processor.h
+        Classes/Commands.cpp
+        Classes/Commands.h
 )
