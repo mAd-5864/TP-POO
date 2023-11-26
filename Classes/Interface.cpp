@@ -56,6 +56,7 @@ infos(56, 3, 61, 22, true) {}
                 iss >> linha >> coluna;
                 infos << set_color(2) << "Comando [" << comando << "] ainda nao implementado\n" << set_color(0);
             } else if (comando == "znova") {
+                iss >> linha >> coluna;
                 if (linha > 0 && coluna > 0 && nArgumentos==3) {
                     infos << set_color(2) << "Comando [" << comando << "] ainda nao implementado\n" << set_color(0);
                 } else {
@@ -73,6 +74,7 @@ infos(56, 3, 61, 22, true) {}
                 iss >> idZona;
                 infos << set_color(2) << "Comando [" << comando << "] ainda nao implementado\n" << set_color(0);
             } else if (comando == "zcomp") {
+                iss >> idZona;
                 if (idZona.empty() || nArgumentos!=2) {
                     infos << set_color(4) << "[ERRO] Sintaxe invalida: zcomp <ID zona>\n" << set_color(0);
                 } else {
@@ -183,11 +185,8 @@ infos(56, 3, 61, 22, true) {}
                 if (filename.empty()){
                     infos << set_color(4) << "[ERRO] Sintaxe invalida: exec <nome de ficheiro>\n" << set_color(0);
                 }else{
-                leComandoFich(filename);
+                    leComandoFich(filename);
                 }
-
-            } else if (comando == "sair") {
-                abort();
             } else {
                 infos << set_color(4) << "O comando inserido nao existe\n" << set_color(0);
             }

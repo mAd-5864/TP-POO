@@ -22,12 +22,8 @@ int main() {
     Interface a;
 
 
-    do{
-       //a.getUserCommand();
-       a.leComando();
-    } while (true);
+    a.leComando();
 
-    t.getchar();
 
     return 0;
 }
