@@ -294,9 +294,6 @@ Interface::Interface():
                 } else {
                     leComandoFich(filename);
                 }
-
-            } else if (comando == "sair") {
-                abort();
             } else {
                 infos << set_color(4) << "O comando inserido nao existe\n" << set_color(0);
             }

@@ -21,7 +21,6 @@ int main() {
     Interface a;
     a.leComando();
 
-    t.getchar();
 
 
 
