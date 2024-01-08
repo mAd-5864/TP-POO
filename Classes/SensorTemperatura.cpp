@@ -1,0 +1,1 @@
+#include "SensorTemperatura.h"

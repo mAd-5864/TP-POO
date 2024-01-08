@@ -1,8 +1,8 @@
 #ifndef TP_POO_INTERFACE_H
 #define TP_POO_INTERFACE_H
-
-#include "Terminal.h"
 #include "../utils.h"
+#include "Terminal.h"
+#include "Habitacao.h"
 
 using namespace term;
 
@@ -10,8 +10,7 @@ class Interface {
 private:
         Window cmd;
         Window infos;
-        Window window;
-        int sa;
+        Habitacao habitacao;
 
 public:
     Interface();

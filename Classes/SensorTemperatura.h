@@ -1,0 +1,10 @@
+#ifndef TP_POO_SENSORTEMPERATURA_H
+#define TP_POO_SENSORTEMPERATURA_H
+
+
+class SensorTemperatura {
+
+};
+
+
+#endif //TP_POO_SENSORTEMPERATURA_H

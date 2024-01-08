@@ -1,0 +1,10 @@
+#ifndef TP_POO_SENSORLUMINOSIDADE_H
+#define TP_POO_SENSORLUMINOSIDADE_H
+
+
+class SensorLuminosidade {
+
+};
+
+
+#endif //TP_POO_SENSORLUMINOSIDADE_H

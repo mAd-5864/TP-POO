@@ -87,6 +87,7 @@ namespace term {
         return *this;
     }
 
+    
     Window& Window::operator<<(const int& i) {
         ::wprintw(window, "%d",i);
         ::wrefresh(window);
@@ -286,6 +287,4 @@ namespace term {
     int Terminal::getNumRows() {
         return LINES;
     }
-
-
 }

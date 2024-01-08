@@ -1,0 +1,1 @@
+#include "AparelhoRefrigerador.h"
